@@ -6,7 +6,7 @@ public class DiffDemo {
 	
 	public String getDiff(String str1, String str2)throws Exception{
 		if(StringUtils.isEmpty(str1)||StringUtils.isEmpty(str2))
-			throw new Exception("Empty or Null String is not allowed.");
+			throw new Exception("ggg.");
 		return StringUtils.difference(str1, str2);
 	}
 
